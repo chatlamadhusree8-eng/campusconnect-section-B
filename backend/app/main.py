@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes import router
 
+
 app = FastAPI(
     title="CampusConnect API",
     description="Backend for the CampusConnect event registration app",
